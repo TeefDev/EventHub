@@ -1,12 +1,12 @@
-EventHub — Event Management and Booking Platform
+# EventHub — Event Management and Booking Platform
 
 EventHub is a modern web application built using C# (ASP.NET Web Forms) and SQL Server. The platform is designed to provide a complete event management solution that allows users to browse events, reserve seats, and manage their bookings through a simple and organized interface.
 
 This project demonstrates practical full-stack development skills, including database integration, authentication systems, CRUD operations, reporting features, and responsive user interface design.
 
-⸻
+---
 
-Project Overview
+# Project Overview
 
 EventHub provides a complete environment that enables users to discover upcoming events, view event details, reserve seats, and track their bookings through a centralized platform.
 
@@ -14,37 +14,49 @@ The platform features a modern user-friendly interface and a secure authenticati
 
 This project addresses the challenge of organizing event registration and management by providing an efficient digital solution for both attendees and administrators.
 
-⸻
+---
 
-Project Preview
+# Project Screenshots
 
-Home Page
+## Home Page
+![Home Page](Uploads/1%20(2).jpg)
 
-About Page
+## About Page
+![About Page](Uploads/2%20(2).jpg)
 
-Events Page
+## Events Page
+![Events Page](Uploads/3%20(2).jpg)
 
-Event Details
+## Event Details Page
+![Event Details Page](Uploads/4.jpg)
 
-User Registration
+## Registration Page
+![Registration Page](Uploads/5.jpg)
 
-User Login
+## Login Page
+![Login Page](Uploads/6.jpg)
 
-Book Event
+## Book Event Page
+![Book Event Page](Uploads/7.jpg)
 
-My Bookings
+## My Bookings Page
+![My Bookings Page](Uploads/8.jpg)
 
-Contact Page
+## Contact Page
+![Contact Page](Uploads/9.jpg)
 
-Admin Dashboard
+## Admin Dashboard
+![Admin Dashboard](Uploads/10.jpg)
 
-Manage Events
+## Manage Events Page
+![Manage Events Page](Uploads/11.jpg)
 
-Manage Bookings
+## Manage Bookings Page
+![Manage Bookings Page](Uploads/12.jpg)
 
-⸻
+---
 
-Technologies Used
+# Technologies Used
 
 C# (ASP.NET Web Forms)
 
@@ -62,9 +74,9 @@ Visual Studio
 
 Serves as the primary IDE for developing, testing, and debugging the application.
 
-⸻
+---
 
-Key Features
+# Key Features
 
 User Registration and Login
 
@@ -102,9 +114,9 @@ Excel Report Export
 
 Generate and export reports for events, users, and bookings.
 
-⸻
+---
 
-What This Project Demonstrates
+# What This Project Demonstrates
 
 • Ability to build complete real-world systems using C# and SQL Server.
 
@@ -118,8 +130,8 @@ What This Project Demonstrates
 
 • Capability to organize, develop, and deliver a functional full-stack project.
 
-⸻
+---
 
-Developer
+# Developer
 
 Taif M. Kareeri — TeefDev
