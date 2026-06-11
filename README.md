@@ -18,40 +18,28 @@ This project addresses the challenge of organizing event registration and manage
 
 # Project Screenshots
 
-## Home Page
 ![Home Page](Uploads/1%20(2).jpg)
 
-## About Page
 ![About Page](Uploads/2%20(2).jpg)
 
-## Events Page
 ![Events Page](Uploads/3%20(2).jpg)
 
-## Event Details Page
 ![Event Details Page](Uploads/4.jpg)
 
-## Registration Page
 ![Registration Page](Uploads/5.jpg)
 
-## Login Page
 ![Login Page](Uploads/6.jpg)
 
-## Book Event Page
 ![Book Event Page](Uploads/7.jpg)
 
-## My Bookings Page
 ![My Bookings Page](Uploads/8.jpg)
 
-## Contact Page
 ![Contact Page](Uploads/9.jpg)
 
-## Admin Dashboard
 ![Admin Dashboard](Uploads/10.jpg)
 
-## Manage Events Page
 ![Manage Events Page](Uploads/11.jpg)
 
-## Manage Bookings Page
 ![Manage Bookings Page](Uploads/12.jpg)
 
 ---
