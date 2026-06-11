@@ -130,60 +130,6 @@
             font-weight:900;
         }
 
-        .btn-box{
-            padding:18px;
-        }
-
-        .show-btn{
-            width:100%;
-            height:45px;
-            border:none;
-            border-radius:12px;
-            background:linear-gradient(135deg,#38bdf8,#2563eb);
-            color:white;
-            font-size:15px;
-            font-weight:800;
-            cursor:pointer;
-        }
-
-        .show-btn:hover{
-            opacity:.92;
-        }
-
-        .details{
-            max-height:0;
-            overflow:hidden;
-            opacity:0;
-            padding:0 18px;
-            transition:all .4s ease;
-        }
-
-        .details.show{
-            max-height:500px;
-            opacity:1;
-            padding:0 18px 18px;
-        }
-
-        .row{
-            background:rgba(15,23,42,.75);
-            border:1px solid rgba(255,255,255,.08);
-            border-radius:14px;
-            padding:14px;
-            margin-top:12px;
-        }
-
-        .label{
-            display:block;
-            color:#7dd3fc;
-            font-size:13px;font-weight:800;
-            margin-bottom:5px;
-        }
-
-        .value{
-            color:#e2e8f0;
-            font-weight:600;
-            font-size:18px;
-        }
 
         .footer{
             text-align:center;
@@ -194,12 +140,6 @@
         }
     </style>
 
-    <script>
-        function toggleDetails(id) {
-            var box = document.getElementById(id);
-            box.classList.toggle("show");
-        }
-    </script>
 
 </head>
 
@@ -220,86 +160,159 @@
     </div>
 </div>
 
-    <section class="hero">
-        <div class="badge">About Team</div>
-        <h1>EventHub Project Team</h1>
-    </section>
+   <section class="hero">
+    <div class="badge">About EventHub</div>
 
-    <section class="section">
+    <h1>Smart Event Booking Platform</h1>
 
-        <div class="project-box">
-            <h2>About EventHub</h2>
-            <p>
-                EventHub is a smart event booking platform developed to help users
-                discover events, reserve seats, manage bookings, and contact the team.
-                The system includes modern UI design, database connection,
-                validation, dashboard, and user-friendly features.
-            </p>
+    <p>
+        Discover, reserve, and manage events through a modern and secure platform.
+    </p>
+</section>
+
+<section class="section">
+
+    <div class="project-box">
+
+        <h2>Who We Are</h2>
+
+        <p>
+            EventHub is a modern web-based platform developed to simplify event
+            booking and reservation management. The system allows users to
+            discover events, reserve seats, manage bookings, and communicate
+            with organizers through a user-friendly interface.
+
+            Built using ASP.NET Web Forms and SQL Server, EventHub combines
+            performance, security, and simplicity to deliver an outstanding
+            user experience.
+        </p>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="student-card">
+
+            <div class="file-number">🎟️</div>
+
+            <div style="padding:25px;text-align:center;">
+
+                <h3 style="margin-bottom:15px;color:#7dd3fc;">
+                    Event Booking
+                </h3>
+
+                <p style="color:#cbd5e1;line-height:1.8;">
+                    Quickly reserve seats and secure your attendance for upcoming events.
+                </p>
+
+            </div>
+
         </div>
+
+        <div class="student-card">
+
+            <div class="file-number">📅</div>
+
+            <div style="padding:25px;text-align:center;">
+
+                <h3 style="margin-bottom:15px;color:#7dd3fc;">
+                    Reservation Management
+                </h3>
+
+                <p style="color:#cbd5e1;line-height:1.8;">
+                    Easily track, review, and manage all your reservations.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="student-card">
+
+            <div class="file-number">🛡️</div>
+
+            <div style="padding:25px;text-align:center;">
+
+                <h3 style="margin-bottom:15px;color:#7dd3fc;">
+                    Secure Platform
+                </h3>
+
+                <p style="color:#cbd5e1;line-height:1.8;">
+                    Secure authentication and database integration for reliable performance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div style="margin-top:60px;">
+
+        <h2 style="text-align:center;margin-bottom:35px;color:#7dd3fc;">
+            Why Choose EventHub?
+        </h2>
 
         <div class="cards">
 
-            <!-- Student 1 -->
             <div class="student-card">
 
-                <div class="file-number">12932</div>
+                <div style="padding:30px;text-align:center;">
 
-                <div class="btn-box">
-                    <button type="button" class="show-btn"
-                        onclick="toggleDetails('student1')">
-                        Show Details
-                    </button>
-                </div>
+                    <h3 style="color:#38bdf8;margin-bottom:12px;">
+                        Responsive Design
+                    </h3>
 
-                <div id="student1" class="details">
-
-                    <div class="row">
-                        <span class="label">Student Name</span>
-                        <span class="value">Amirah Alshahrani</span>
-                    </div>
-
-                    <div class="row">
-                        <span class="label">Section</span>
-                        <span class="value">AOL IR3</span>
-                    </div>
-
-                    <div class="row">
-                        <span class="label">Semester</span>
-                        <span class="value">Apr 2026</span>
-                    </div>
+                    <p style="color:#cbd5e1;">
+                        Optimized for desktop, tablet, and mobile devices.
+                    </p>
 
                 </div>
 
             </div>
 
-            <!-- Student 2 -->
             <div class="student-card">
 
-                <div class="file-number">12944</div>
+                <div style="padding:30px;text-align:center;">
 
-                <div class="btn-box">
-                    <button type="button" class="show-btn"
-                        onclick="toggleDetails('student2')">
-                        Show Details
-                    </button>
+                    <h3 style="color:#38bdf8;margin-bottom:12px;">
+                        Easy Navigation
+                    </h3>
+
+                    <p style="color:#cbd5e1;">
+                        Clean and intuitive user experience.
+                    </p>
+
                 </div>
 
-                <div id="student2" class="details">
+            </div>
 
-                    <div class="row">
-                        <span class="label">Student Name</span>
-                        <span class="value">Khadeja Waleed</span>
-                    </div>
+            <div class="student-card">
 
-                    <div class="row">
-                        <span class="label">Section</span>
-                        <span class="value">AOL IR3</span>
-                    </div>
+                <div style="padding:30px;text-align:center;">
 
-                    <div class="row">
-                        <span class="label">Semester</span>
-                        <span class="value">Apr 2026</span>
-                    </div>
+                    <h3 style="color:#38bdf8;margin-bottom:12px;">
+                        SQL Server Database
+                    </h3>
+
+                    <p style="color:#cbd5e1;">
+                        Reliable and secure data management system.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="student-card">
+
+                <div style="padding:30px;text-align:center;">
+
+                    <h3 style="color:#38bdf8;margin-bottom:12px;">
+                        Fast Booking Process
+                    </h3>
+
+                    <p style="color:#cbd5e1;">
+                        Reserve event seats in just a few clicks.</p>
 
                 </div>
 
@@ -307,7 +320,9 @@
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
     <div class="footer">
         © 2026 EventHub — Smart Event Booking System
