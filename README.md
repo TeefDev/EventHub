@@ -16,7 +16,7 @@ This project addresses the challenge of organizing event registration and manage
 
 ---
 
-# Project Screenshots
+# Project Preview
 
 ![Home Page](Uploads/1%20(2).jpg)
 
