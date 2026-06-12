@@ -122,4 +122,4 @@ Generate and export reports for events, users, and bookings.
 
 # Developer
 
-Taif M. Kareeri — TeefDev
+Teef M. Karyry — TeefDev
